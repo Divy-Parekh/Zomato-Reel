@@ -10,7 +10,10 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "https://zomato-reel.vercel.app",
+    ],
     credentials: true,
   })
 );
@@ -26,3 +29,4 @@ app.use("/api/food", foodRoutes);
 app.use("/api/food-partner", foodPartnerRoutes);
 
 module.exports = app;
+
