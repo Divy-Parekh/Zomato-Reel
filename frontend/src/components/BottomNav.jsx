@@ -7,7 +7,7 @@ const BottomNav = () => {
     <nav className="bottom-nav" role="navigation" aria-label="Bottom">
       <div className="bottom-nav__inner">
         <NavLink
-          to="/"
+          to="/home"
           end
           className={({ isActive }) =>
             `bottom-nav__item ${isActive ? "is-active" : ""}`
@@ -61,3 +61,4 @@ const BottomNav = () => {
 };
 
 export default BottomNav;
+
