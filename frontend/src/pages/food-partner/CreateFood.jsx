@@ -77,7 +77,7 @@ const CreateFood = () => {
     );
 
     console.log(response.data);
-    navigate("/"); // Redirect to home or another page after successful creation
+    navigate("/home"); // Redirect to home or another page after successful creation
     // Optionally reset
     // setName(''); setDescription(''); setVideoFile(null);
   };
@@ -240,3 +240,4 @@ const CreateFood = () => {
 };
 
 export default CreateFood;
+
