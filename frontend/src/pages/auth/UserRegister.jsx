@@ -30,7 +30,7 @@ const UserRegister = () => {
 
     console.log(response.data);
 
-    navigate("/");
+    navigate("/home");
   };
 
   return (
@@ -99,7 +99,7 @@ const UserRegister = () => {
           </button>
         </form>
         <div className="auth-alt-action">
-          Already have an account? <Link to="/user/login">Sign in</Link>
+          Already have an account? <Link to="/">Sign in</Link>
         </div>
       </div>
     </div>
@@ -107,3 +107,4 @@ const UserRegister = () => {
 };
 
 export default UserRegister;
+
