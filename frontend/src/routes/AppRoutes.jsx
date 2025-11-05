@@ -27,6 +27,7 @@ const AppRoutes = () => {
           path="/"
           element={
             <>
+              <UserLogin />
               <Home />
               <BottomNav />
             </>
@@ -49,3 +50,4 @@ const AppRoutes = () => {
 };
 
 export default AppRoutes;
+
